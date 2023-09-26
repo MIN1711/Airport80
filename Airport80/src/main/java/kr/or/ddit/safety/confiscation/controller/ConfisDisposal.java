@@ -27,7 +27,7 @@ public class ConfisDisposal {
 		return new ConfiscationVO();
 	}
 
-	// 압수품(폐기) 조회
+	// 압수품(폐기) 목록조회
 	@GetMapping("/list.do")
 	public String confisDisposalList(
 			 @RequestParam(name="page", required = false, defaultValue = "1" ) long currentPage
