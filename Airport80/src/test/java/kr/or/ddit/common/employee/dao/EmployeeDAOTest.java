@@ -7,7 +7,7 @@ import org.springframework.test.context.junit.jupiter.web.SpringJUnitWebConfig;
 
 import kr.or.ddit.common.vo.EmployeeVO;
 import lombok.extern.slf4j.Slf4j;
-
+// DB 연결 계정 테스트용
 @Slf4j
 @SpringJUnitWebConfig(locations = "file:src/main/resources/kr/or/ddit/spring/conf/*-context.xml")
 class EmployeeDAOTest {
